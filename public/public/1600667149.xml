@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ENTITY c PUBLIC "bar" "/etc/passwd">
+]>
+<root>
+    <test>Test</test>
+    <sub>&c;</sub>
+</root>
